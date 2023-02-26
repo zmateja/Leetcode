@@ -1,0 +1,3 @@
+This solution is pretty efficient - scans the string 1 time for O(n) time.
+
+Reviewing other solutions, I could save space by not using a hashmap and using a switch statement instead.
