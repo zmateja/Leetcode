@@ -2,11 +2,11 @@ package TwoSum;
 
 import java.util.Arrays;
 
-public class OptimizedSolutionRunner {
+public class BruteForceTwoSumRunner {
     public static void main(String[] args) {
-        TwoSumBetterSolution test = new TwoSumBetterSolution();
-        int[] nums = {2,7,11,15};
-        int target = 9;
+        TwoSumBruteForce test = new TwoSumBruteForce();
+        int[] nums = {3,3};
+        int target = 6;
         int[] solution = test.twoSum(nums,target);
         System.out.println(Arrays.toString(solution));
     }
