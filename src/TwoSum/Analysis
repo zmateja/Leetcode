@@ -4,5 +4,5 @@ After thinking about it, this can be improved using a hash with the following st
 1. Create a new hash table/map
 2. Scan the Array once, on each number curNum do the following:
 - Check if the complement (target - curNum) exists in the hash
-- if the complement does not exist, add curNum to the hashmap (stored with its index in some way)
+- if the complement does not exist, add curNum to the hashmap (stored with its index)
 - If the complement does exist, return the complement's index as well as curNum index

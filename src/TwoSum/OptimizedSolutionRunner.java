@@ -2,9 +2,9 @@ package TwoSum;
 
 import java.util.Arrays;
 
-public class TwoSumMain {
+public class OptimizedSolutionRunner {
     public static void main(String[] args) {
-        TwoSumSolution test = new TwoSumSolution();
+        TwoSumBetterSolution test = new TwoSumBetterSolution();
         int[] nums = {2,7,11,15};
         int target = 9;
         int[] solution = test.twoSum(nums,target);
